@@ -1,6 +1,6 @@
 # CustomRecipes
 
-Create your own crafting recipes
+Create your own crafting recipes (For PocketMine-MP)
 
 TODO:
 

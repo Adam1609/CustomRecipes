@@ -5,7 +5,7 @@ namespace CustomRecipes;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\plugin\PluginBase;
-use RPGCraft\Recipes\Recipes;
+use CustomRecipes\Recipes\Recipes;
 class Main extends PluginBase implements Listener{
 	
 	private $craft;

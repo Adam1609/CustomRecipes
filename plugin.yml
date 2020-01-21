@@ -1,0 +1,5 @@
+name: CustomRecipes
+api: [3.2.0]
+main: CustomRecipes\Main
+version: 1.0
+author: Adam1609

@@ -1,10 +1,9 @@
 # CustomRecipes
 
-Create your own crafting recipes (For PocketMine-MP)
+Custom Recipes allow you to customize your own crafting recipes
 
-TODO:
+Support Enchantmant
 
-- [] Support for enchantments (only works with Result)
-- [] Support custom name for Result
-- [] Support for PiggyCE (optional)
+##Note
 
+Custom name and custom lore for item aren't availible for MC 1.14.x

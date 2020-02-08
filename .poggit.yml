@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Adam1609/CustomRecipes
+build-by-default: true
+branches:
+- master
+projects:
+  CustomRecipes:
+    path: ""
+...

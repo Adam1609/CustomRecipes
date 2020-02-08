@@ -1,6 +1,6 @@
 <?php
 
-namespace RPGCraft\Recipes;
+namespace CustomRecipes\Recipes;
 
 use pocketmine\inventory\ShapedRecipe;
 use pocketmine\item\enchantment\Enchantment;
@@ -9,7 +9,7 @@ use pocketmine\item\Item;
 use pocketmine\network\mcpe\protocol\BatchPacket;
 use pocketmine\network\mcpe\protocol\CraftingDataPacket;
 
-use RPGCraft\Main;
+use CustomRecipes\Main;
 
 class Recipes{
 	
@@ -34,6 +34,7 @@ class Recipes{
 			
 			foreach($recipe['result']['enchantments'] as $key => $level){
 				$enchantment = Enchantment::getEnchantmentByName($key);
+				/* Temporarily disable the CustomEnchant, will be adding later */
 				//$enchantment = CustomEnchantManager::getEnchantmentByName($key);
 				$res->addEnchantment(new EnchantmentInstance($enchantment, $level));
 			}

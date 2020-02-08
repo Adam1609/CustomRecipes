@@ -68,7 +68,8 @@ class Recipes{
 	}
 	
 	public function getRecipes(): array{
-		return json_decode(file_get_contents($this->plugin->getServer()->getDataPath().'/plugins/CustomCraft-master/src/RPGCraft/Recipes/Recipes.json'), true);
+		//Change the path anyway you like, will update this later
+		return json_decode(file_get_contents($this->plugin->getServer()->getDataPath().'/plugins/CustomRecipes-master/src/CustomRecipes/Recipes/Recipes.json'), true);
 	}
 	
 	public function getCraftingDataPacket(): BatchPacket{

@@ -34,9 +34,10 @@ class Recipes{
 			
 			foreach($recipe['result']['enchantments'] as $key => $level){
 				$enchantment = Enchantment::getEnchantmentByName($key);
-				/* Temporarily disable the CustomEnchant, will be adding later */
-				//$enchantment = CustomEnchantManager::getEnchantmentByName($key);
+				//Try to implements Custom Enchant, need some test
+				$cenchantment = CustomEnchantManager::getEnchantmentByName($key);
 				$res->addEnchantment(new EnchantmentInstance($enchantment, $level));
+				$res->addEnchantment(new EnchantmentInstance($cenchantment, $level));
 			}
 			$pk->addShapedRecipe(new ShapedRecipe($recipe['shape'], $ing, [$res]));
 			$this->plugin->getServer()->getCraftingManager()->registerShapedRecipe(new ShapedRecipe($recipe['shape'], $ing, [$res]));

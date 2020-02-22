@@ -8,7 +8,8 @@
       "count": 1,
 
       "enchantments": {
-        "UNBREAKING": 50
+        "UNBREAKING": 50,
+	"HASTE": 1
 
       }
 

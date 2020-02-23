@@ -5,6 +5,7 @@ namespace CustomRecipes\Recipes;
 use pocketmine\inventory\ShapedRecipe;
 use pocketmine\item\enchantment\Enchantment;
 use pocketmine\item\enchantment\EnchantmentInstance; 
+use DaPigGuy\PiggyCustomEnchants\CustomEnchantManager;
 use pocketmine\item\Item;
 use pocketmine\network\mcpe\protocol\BatchPacket;
 use pocketmine\network\mcpe\protocol\CraftingDataPacket;
